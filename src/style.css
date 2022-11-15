@@ -11,7 +11,7 @@
 }
 
 main {
-    height: 100vh;
+    height: 200vh;
 }
 header {
     background-color:rgb(26 26 26);
@@ -138,4 +138,14 @@ nav ul li::before {
 }
 nav ul li:hover::before {
     width:70px;
+}
+
+
+
+.second-section {
+    padding-top:5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem;
 }
