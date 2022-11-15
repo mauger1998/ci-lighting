@@ -16,7 +16,7 @@ main {
 header {
     background-color:rgb(26 26 26);
     color:white;
-    /* position:fixed; */
+    position:fixed;
     width:100vw;
 }
 .top-bar {
@@ -84,7 +84,31 @@ nav {
     height:60vh;
     background-size:cover;
     display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:white;
+    margin-top:5rem;
+}
+.title-container {
+    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    gap:3rem;
+    padding-right:4rem;
+}
+.title-container h1 {
+    font-size:3rem;
+    font-weight:700;
+}
+.title-container p {
+    font-size:1.15rem;
+    font-weight:300;
+}
+.title-container button {
+    padding:0.4rem 2rem;
+    font-size:1.25rem;
+    background-color:rgb(26 26 26);
+    color:white;
+    border:3px solid white;
 }
