@@ -23,7 +23,7 @@ header {
     display:flex;
     justify-content: space-between;
     align-items:center;
-    padding-inline: 4rem;
+    padding-inline: 6rem;
 }
 .top-bar img {
     width:2rem;
@@ -49,7 +49,7 @@ nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline:4rem;
+    padding-inline:6rem;
 }
 .logo-section img {
     width:12rem;
@@ -96,7 +96,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap:3rem;
-    padding-right:4rem;
+    padding-right:6rem;
 }
 .title-container h1 {
     font-size:3rem;
