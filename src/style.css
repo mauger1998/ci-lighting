@@ -16,6 +16,8 @@ main {
 header {
     background-color:rgba(0, 0, 0, 0.9);
     color:white;
+    position:fixed;
+    width:100vw;
 }
 .top-bar {
     display:flex;
@@ -39,4 +41,31 @@ header {
     gap:1.5rem;
     font-size:0.8rem;
     font-weight:200;
+}
+
+
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline:4rem;
+}
+.logo-section img {
+    width:12rem;
+}
+.nav-links ul {
+    display:flex;
+    list-style:none;
+    align-items: center;
+    gap:4rem;
+    font-size:0.9rem;
+    font-weight:600;
+}
+.nav-links button {
+    padding:0.25rem 1.5rem;
+    font-weight:700;
+    background-color:white;
+    border:none;
+    border-radius:0.25rem;
 }

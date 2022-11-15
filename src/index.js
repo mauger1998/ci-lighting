@@ -12,3 +12,4 @@ const logoImg = document.querySelector(".logo")
 
 
 gsyFlagImg.src = gsyFlag
+logoImg.src = logo
