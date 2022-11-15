@@ -142,3 +142,15 @@ nav img {
     background-color:white;
     border:3px solid black;
 }
+
+
+
+.hero-right img {
+    width:35vw;
+}
+.hero-right {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top:2.75rem;
+}
