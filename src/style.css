@@ -20,7 +20,7 @@ header {
     color:white;
     display:flex;
     flex-direction:column;
-    gap:0.25em;
+    gap:0.05em;
 }
 .top-bar {
     display:flex;
@@ -50,4 +50,13 @@ header {
 }
 .opening-times-section img {
     width:1.5rem;
+}
+
+
+
+nav {
+    background-color:#292929;
+    display:flex;
+    justify-content: space-between;
+
 }
