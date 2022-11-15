@@ -86,3 +86,19 @@ nav img {
     border:none;
     font-weight:600;
 }
+
+
+
+.hero {
+    border:2px solid red;
+    height:83.5%;
+    display:flex;
+}
+.hero-left {
+    border:2px solid blue;
+    width:50%;
+}
+.hero-right {
+    border:2px solid green;
+    width:50%;
+}
