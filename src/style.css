@@ -66,7 +66,8 @@ nav {
     padding:0.25rem 1.5rem;
     font-weight:700;
     background-color:white;
-    border:none;
+    border:3px solid white;
+    transition:0.5s;
     border-radius:0.25rem;
 }
 
@@ -108,7 +109,33 @@ nav {
 .title-container button {
     padding:0.4rem 2rem;
     font-size:1.25rem;
+    background-color:white;
+    color:black;
+    border:3px solid white;
+    transition:0.5s;
+}
+.title-container button:hover,
+nav button:hover {
+    transition:0.5s;
+    cursor:pointer;
     background-color:rgb(26 26 26);
     color:white;
-    border:3px solid white;
+    
+}
+nav ul:hover,
+nav button {
+    cursor:pointer;
+}
+
+nav ul li::before {
+    content:"";
+    width: 0px;
+    height:2px;
+    background-color:white;
+    position:absolute;
+    top:75%;
+    transition:0.5s;
+}
+nav ul li:hover::before {
+    width:70px;
 }
