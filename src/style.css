@@ -17,56 +17,28 @@ main {
     height:100vh;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items:center;
 }
 header {
-    color:white;
+    color:black;
     display:flex;
     flex-direction:column;
-    gap:0.05em;
+    height:max-content;
     width:100%;
-}
-.top-bar {
-    display:flex;
-    justify-content:space-between;
-    padding:0.75rem;
-    align-items:center;
-    background-color:#292929;
-    padding-right:14vw;
-    padding-left:14vw;
-}
-.top-bar img {
-    width:2rem;
-}
-.guernsey-flag-section {
-    display:flex;
-    align-items:center;
-    gap:1rem;
-    font-size:0.8rem;
-    font-weight:200;
-}
-.opening-times-section {
-    display:flex;
-    align-items:center;
-    gap:1.5rem;
-    font-size:0.8rem;
-    font-weight:200;
-}
-.opening-times-section img {
-    width:1.5rem;
-}
+} 
 
 
 
 nav {
-    background-color:#292929;
+    background-color:white;
     display:flex;
     justify-content: space-between;
     align-items:center;
     padding:0.25rem;
     padding-right:14vw;
     padding-left:14vw;
+    padding-top:1.5rem;
     width:100vw;
 }
 nav img {

@@ -9,7 +9,6 @@ const searchIconImg = document.querySelector(".search-icon")
 const logoImg = document.querySelector(".logo")
 const heroImg = document.querySelector(".hero-image")
 
-gsyFlagImg.src = gsyFlag
-searchIconImg.src = searchIcon
-logoImg.src = logo
+
+
 heroImg.src = hero
