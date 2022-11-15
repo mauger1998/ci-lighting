@@ -152,6 +152,6 @@ nav ul li:hover::before {
 .circle-texture {
     position:absolute;
     opacity:0.1;
-    left:30%;
+    left:32%;
     width:10rem;
 }
