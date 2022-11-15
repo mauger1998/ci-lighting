@@ -97,8 +97,16 @@ nav img {
 .hero-left {
     border:2px solid blue;
     width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero-right {
     border:2px solid green;
     width:50%;
+}
+.content-box {
+    background-color:#F5F5F5;
+    height:45vh;
+    width:75%;
 }
