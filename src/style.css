@@ -107,12 +107,20 @@ nav {
     font-weight:300;
 }
 .title-container button {
-    padding:0.4rem 2rem;
+    padding:0.4rem 3rem;
     font-size:1.25rem;
     background-color:white;
     color:black;
     border:3px solid white;
     transition:0.5s;
+}
+.title-container button:nth-child(2) {
+    background-color:rgba(26, 26, 26, 1);
+    color:white;
+}
+.title-container button:nth-child(2):hover {
+    background-color:white;
+    color:black;
 }
 .title-container button:hover,
 nav button:hover {
@@ -121,6 +129,10 @@ nav button:hover {
     background-color:rgb(26 26 26);
     color:white;
     
+}
+.title-buttons {
+    display:flex;
+    gap:1.5rem;
 }
 nav ul:hover,
 nav button {
