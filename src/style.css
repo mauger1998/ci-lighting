@@ -5,3 +5,15 @@
     padding:0;
     box-sizing:border-box;
 }
+
+main {
+    height: 500vh;
+}
+.first-section {
+    height:100vh;
+}
+header {
+    border:2px solid blue;
+    color:white;
+    background-color:#292929;
+}
