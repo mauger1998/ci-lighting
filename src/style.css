@@ -149,3 +149,9 @@ nav ul li:hover::before {
     align-items: center;
     font-size:1.5rem;
 }
+.circle-texture {
+    position:absolute;
+    opacity:0.1;
+    left:30%;
+    width:10rem;
+}
