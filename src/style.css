@@ -70,6 +70,46 @@ nav {
     transition:0.5s;
     border-radius:0.25rem;
 }
+.burger {
+    display:none;
+}
+
+/** Nav Media Queries
+********************/
+
+@media (max-width:884px) {
+    .nav-links {
+        display:none;
+    }
+    nav {
+        padding-inline:2.5rem;
+    }
+    .burger {
+        display:block;
+    }
+}
+
+@media (max-width:784px) {
+    .opening-times-section {
+        display:none;
+    }
+   
+}
+@media (max-width:333px) {
+    .logo-section img {
+        width:8rem;
+    }
+    nav {
+        justify-content:center;
+        align-items:center;
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+    .burger {
+        padding-inline:1.5rem;  
+          
+    }
+}
 
 
 
@@ -130,6 +170,10 @@ nav {
         font-size:1rem;
         text-align:center;
         padding-inline:1.75rem;
+    }
+    .hero-section {
+        background-position-x:-20rem;
+        background-repeat: no-repeat;
     }
 }
 .title-container button:nth-child(2) {
