@@ -231,13 +231,18 @@ nav ul li:hover::before {
 .second-section {
     padding-top:5rem;
     display:flex;
-    justify-content: center;
+    flex-direction:column;
+    justify-content: flex-start;
     align-items: center;
     font-size:1.5rem;
+    border:2px solid red;
+    height:88vh;
+    position:relative;
 }
 .circle-texture {
     position:absolute;
     opacity:0.1;
     left:32%;
+    top:2%;
     width:10rem;
 }
