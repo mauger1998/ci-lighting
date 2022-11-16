@@ -375,6 +375,7 @@ nav ul li:hover::before {
     justify-content:flex-start;
     align-items:center;
     padding:6rem;
+    padding-bottom:8rem;
     gap:4rem;
 }
 .product-container {
@@ -414,25 +415,102 @@ nav ul li:hover::before {
 }
 
 .contact {
-    border-top:2px solid black;
     position:relative;
     display:flex;
     flex-direction: column;
     align-items:center;
-    justify-content:flex-start;
+    justify-content:center;
     padding:6rem;
     gap:1rem;
-    
-    
+    height:127vh;
+    color:white;    
 }
 .contact h3 {
     font-size:2rem;
+    z-index:1;
 }
 .contact p {
-    font-size:1.25rem;
+    font-size:1rem;
+    z-index:3;
 }
 .svg {
     opacity:0.1;
     position:absolute;
     inset:0;
+   
+}
+.rectangle {
+    position:absolute;
+    background-color:rgba(0, 0, 0, 0.85);
+    height:129vh;
+    width:100vw;
+}
+
+
+
+fieldset {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    color:white;
+}
+.first-line {
+    display:flex;
+    gap:0.5rem;
+}
+.first-line p {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:1rem;
+}
+.message {
+    display:flex;
+    flex-direction: column;
+}
+.message label {
+    font-size:1rem;
+}
+form button {
+    padding:0.5rem 20.5rem;
+    font-weight:600;
+    font-size:1rem;
+    border-radius:0.5rem;
+    border:none;
+    background-color:lightgray;
+    color:black;
+}
+form button span {
+    padding-left:1rem;
+}
+#name {
+    background-color:white;
+    border:1px solid black;
+}
+#email {
+    background-color:white;
+    border:1px solid black;
+}
+form {
+    /* background-color:white; */
+    z-index:1;
+    border:none;
+    outline:none;
+    padding-top:3rem;
+}
+fieldset {
+    border:none;
+}
+legend {
+    padding:0.5rem;
+}
+label {
+    align-self:flex-start;
+}
+input {
+    width:15rem;
+    height:2rem;
 }
