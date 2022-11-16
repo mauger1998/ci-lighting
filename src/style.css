@@ -86,7 +86,7 @@ nav {
     height:60vh;
     background-size:cover;
     display:flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     color:white;
     margin-top:5rem;
@@ -97,15 +97,20 @@ nav {
     justify-content: center;
     align-items: center;
     gap:3rem;
-    padding-right:6rem;
 }
 .title-container h1 {
-    font-size:3rem;
+    font-size:max(2.25rem, 4vw);
     font-weight:700;
+    text-align:center;
+    padding-inline:0.5rem;
 }
 .title-container p {
     font-size:1.15rem;
+    font-size:max(1.15rem, 1.5vw);
     font-weight:300;
+    padding-inline:1rem;
+    text-align:center;
+
 }
 .title-container button {
     padding:0.4rem 3rem;
@@ -114,6 +119,18 @@ nav {
     color:black;
     border:3px solid white;
     transition:0.5s;
+}
+
+/**** Media Queries for hero
+***************************/
+@media (max-width:600px) {
+    .title-container button {
+        word-wrap: nowrap;
+        width:max-content;
+        font-size:1rem;
+        text-align:center;
+        padding-inline:1.75rem;
+    }
 }
 .title-container button:nth-child(2) {
     background-color:rgba(26, 26, 26, 1);
