@@ -312,6 +312,7 @@ nav ul li:hover::before {
     }
     .second-section {
         text-align:center;
+        height:150vh;
     }
 }
 
@@ -348,10 +349,14 @@ nav ul li:hover::before {
 .gallery-container svg:nth-child(3) {
     transform: rotateZ(90deg)
 }
+.gallery {
+    z-index:1;
+}
 .cable {
     position:absolute;
     opacity:0.3;
     right:-2%;
     top:3%;
-    transform:rotateZ(50deg) scale(1.1)
+    transform:rotateZ(50deg) scale(1.1);
+    z-index:0;
 }
