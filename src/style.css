@@ -11,7 +11,7 @@
 }
 
 main {
-    height: 300vh;
+    height: 400vh;
 }
 header {
     background-color:#0d0d0d;
@@ -50,6 +50,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding-inline:6rem;
+    z-index:2;
+}
+header {
+    z-index:2;
 }
 .logo-section img {
     width:12rem;
@@ -406,4 +410,10 @@ nav ul li:hover::before {
 }
 .fourth + h4 {
     padding-inline:2rem;
+}
+.svg {
+    opacity:0.1;
+}
+.contact {
+    border-top:2px solid black;
 }
