@@ -11,6 +11,7 @@ import hamburger from "./images/Group 26.png"
 import service from "./images/customer-icon.png"
 import handshake from "./images/handshake.png"
 import customerService from "./images/tick-icon.png"
+import firstGallery from "./images/Hydra Motorway Photo (2) 1.png"
 
 const gsyFlagImg = document.querySelector(".guernsey-flag")
 const searchIconImg = document.querySelector(".search-icon")
@@ -21,6 +22,7 @@ const menu = document.querySelector(".burger")
 const serviceIcon = document.querySelector(".customer")
 const handshakeIcon = document.querySelector(".hands")
 const tickIcon = document.querySelector(".ticks")
+const gallery = document.querySelector(".gallery")
 
 
 
@@ -32,3 +34,4 @@ menu.src = hamburger
 serviceIcon.src = service
 handshakeIcon.src = handshake
 tickIcon.src = customerService
+gallery.src = firstGallery

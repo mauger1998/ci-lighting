@@ -11,7 +11,7 @@
 }
 
 main {
-    height: 200vh;
+    height: 300vh;
 }
 header {
     background-color:#0d0d0d;
@@ -313,4 +313,13 @@ nav ul li:hover::before {
     .second-section {
         text-align:center;
     }
+}
+
+
+
+
+
+.third-section {
+    height:60vh;
+    background-color:rgb(236, 236, 236);
 }
