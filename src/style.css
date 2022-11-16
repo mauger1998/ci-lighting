@@ -322,4 +322,36 @@ nav ul li:hover::before {
 .third-section {
     height:60vh;
     background-color:rgb(236, 236, 236);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:3rem;
+    font-size:1.5rem;
+    padding:2.5rem;
+    position:relative;
+   
+}
+.gallery-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+
+}
+.gallery-container svg {
+    width:50px;
+}
+.gallery-container svg:nth-child(1) {
+    transform: rotateZ(-90deg)
+}
+.gallery-container svg:nth-child(3) {
+    transform: rotateZ(90deg)
+}
+.cable {
+    position:absolute;
+    opacity:0.3;
+    right:-2%;
+    top:3%;
+    transform:rotateZ(50deg) scale(1.1)
 }
