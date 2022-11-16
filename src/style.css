@@ -14,7 +14,7 @@ main {
     height: 200vh;
 }
 header {
-    background-color:rgb(26 26 26);
+    background-color:#0d0d0d;
     color:white;
     position:fixed;
     width:100vw;
@@ -79,6 +79,7 @@ nav {
     display:flex;
     justify-content: center;
     align-items: flex-start;
+    background-color:#0d0d0d;
 }
 .hero-section {
     width:100vw;
@@ -151,6 +152,8 @@ nav ul li::before {
 nav ul li:hover::before {
     width:70px;
 }
+
+
 
 
 
