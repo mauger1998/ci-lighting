@@ -13,6 +13,10 @@ import handshake from "./images/handshake.png"
 import customerService from "./images/tick-icon.png"
 import firstGallery from "./images/Hydra Motorway Photo (2) 1.png"
 import cable from "./images/cable-removebg-preview.png"
+import firstProduct from "./images/firstproduct.png"
+import secondProduct from "./images/secondproduct.png"
+import thirdProduct from "./images/thirdproduct.png"
+import fourthProduct from "./images/fourthproduct.png"
 
 const gsyFlagImg = document.querySelector(".guernsey-flag")
 const searchIconImg = document.querySelector(".search-icon")
@@ -25,6 +29,10 @@ const handshakeIcon = document.querySelector(".hands")
 const tickIcon = document.querySelector(".ticks")
 const gallery = document.querySelector(".gallery")
 const cableBg = document.querySelector(".cable")
+const first = document.querySelector(".first")
+const second = document.querySelector(".second")
+const third = document.querySelector(".third")
+const fourth = document.querySelector(".fourth")
 
 
 
@@ -38,4 +46,8 @@ handshakeIcon.src = handshake
 tickIcon.src = customerService
 gallery.src = firstGallery
 cableBg.src = cable
+first.src = firstProduct
+second.src = secondProduct
+third.src = thirdProduct
+fourth.src = fourthProduct
 
