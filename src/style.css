@@ -541,3 +541,20 @@ input {
     font-size:1.75rem;
     gap:4rem;
 }
+
+
+
+footer {
+    height:40vh;
+    background-color:rgba(0, 0, 0, 0.9);
+    color:white;
+    display:flex;
+    flex-direction: column;
+    padding-block:4rem;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1) {
+    font-size:1.5rem;
+}
