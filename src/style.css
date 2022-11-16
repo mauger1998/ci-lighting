@@ -126,7 +126,8 @@ nav {
     height:60vh;
     background-size:cover;
     display:flex;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-right:6rem;
     align-items: center;
     color:white;
     margin-top:5rem;
@@ -163,6 +164,13 @@ nav {
 
 /**** Media Queries for hero
 ***************************/
+@media (max-width:884px) {
+    .hero-section {
+        padding-right:0rem;
+        padding-inline:1rem;
+        justify-content:center;
+    }
+}
 @media (max-width:600px) {
     .title-container button {
         word-wrap: nowrap;
@@ -171,9 +179,11 @@ nav {
         text-align:center;
         padding-inline:1.75rem;
     }
+    
     .hero-section {
         background-position-x:-20rem;
         background-repeat: no-repeat;
+        
     }
 }
 .title-container button:nth-child(2) {
