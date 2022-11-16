@@ -18,6 +18,7 @@ import secondProduct from "./images/secondproduct.png"
 import thirdProduct from "./images/thirdproduct.png"
 import fourthProduct from "./images/fourthproduct.png"
 import photo from "./images/photo.png"
+import store from "./images/store.png"
 
 const gsyFlagImg = document.querySelector(".guernsey-flag")
 const searchIconImg = document.querySelector(".search-icon")
@@ -35,6 +36,7 @@ const second = document.querySelector(".second")
 const third = document.querySelector(".third")
 const fourth = document.querySelector(".fourth")
 const photograph = document.querySelector(".photo")
+const storeImg = document.querySelector(".storeImg")
 
 
 
@@ -53,4 +55,5 @@ second.src = secondProduct
 third.src = thirdProduct
 fourth.src = fourthProduct
 photograph.src = photo
+storeImg.src = store
 
