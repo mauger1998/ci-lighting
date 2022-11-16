@@ -290,3 +290,27 @@ nav ul li:hover::before {
     background-color:white;
     margin-top:1.5rem;
 }
+
+@media (max-width: 1216px) {
+    .card h3 {
+        font-size:1.25rem;
+    }
+    .card button {
+        padding:0.3rem 3rem;
+    }
+}
+@media (max-width: 1054px) {
+    .hands,
+    .ticks {
+        top:-15%;
+    }
+}
+@media (max-width:868px) {
+    .cards {
+        flex-direction:column;
+        gap:5rem;
+    }
+    .second-section {
+        text-align:center;
+    }
+}
