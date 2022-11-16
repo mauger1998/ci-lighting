@@ -9,6 +9,8 @@ import secondIcon from "./images/icon2.png"
 import thirdIcon from "./images/icon3.png"
 import hamburger from "./images/Group 26.png"
 import service from "./images/customer-icon.png"
+import handshake from "./images/handshake.png"
+import customerService from "./images/tick-icon.png"
 
 const gsyFlagImg = document.querySelector(".guernsey-flag")
 const searchIconImg = document.querySelector(".search-icon")
@@ -17,6 +19,8 @@ const heroSection = document.querySelector(".hero-section")
 const circleText = document.querySelector(".circle-texture")
 const menu = document.querySelector(".burger")
 const serviceIcon = document.querySelector(".customer")
+const handshakeIcon = document.querySelector(".hands")
+const tickIcon = document.querySelector(".ticks")
 
 
 
@@ -26,3 +30,5 @@ heroSection.style.backgroundImage = `url(${hero})`
 circleText.src = circleTexture
 menu.src = hamburger
 serviceIcon.src = service
+handshakeIcon.src = handshake
+tickIcon.src = customerService
