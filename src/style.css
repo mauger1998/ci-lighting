@@ -340,6 +340,7 @@ nav ul li:hover::before {
     font-size:1.5rem;
     padding:2.5rem;
     position:relative;
+    overflow:hidden;
    
 }
 .gallery-container {
@@ -347,6 +348,7 @@ nav ul li:hover::before {
     justify-content: center;
     align-items: center;
     gap:2rem;
+    overflow:hidden;
 
 }
 .gallery-container svg {
@@ -368,6 +370,29 @@ nav ul li:hover::before {
     top:3%;
     transform:rotateZ(50deg) scale(1.1);
     z-index:0;
+}
+
+@media (max-width:884px) {
+    .cable {
+        width:min(15rem, 22vw);
+        transform:rotateZ(55deg);
+        top:0%;
+        right:-3%;
+    }
+    .third-section {
+        height:max-content;
+        padding-bottom:5rem;
+    }
+}
+@media (max-width:863px) {
+    .gallery {
+        width: min(80vw, 50rem)
+    }
+}
+@media (max-width:791px) {
+    .gallery-container svg {
+        display:none;
+    }
 }
 
 
