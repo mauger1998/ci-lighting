@@ -386,7 +386,7 @@ nav ul li:hover::before {
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:2vw;
+    gap:4vw;
 }
 .products h3 {
     font-size:2rem;
@@ -558,16 +558,48 @@ input {
 
 
 footer {
-    height:40vh;
+    height:60vh;
     background-color:rgba(0, 0, 0, 0.9);
     color:white;
     display:flex;
-    flex-direction: column;
     padding-block:4rem;
-    gap:1rem;
+    gap:3rem;
     align-items: center;
     justify-content: center;
+    overflow:hidden;
+    position:relative;
 }
-footer p:nth-child(1) {
+.leftSide p {
     font-size:1.5rem;
+    font-weight:200;
+    
+}
+.leftSide p:nth-child(1) {
+    font-size:2rem;
+    font-weight:700;
+}
+
+.rightSide img {
+    width:50px;
+}
+.rightSide {
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+
+}
+.tainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align:left;
+    gap:2rem;
+
+    
+}
+footer > p {
+    position:absolute;
+    bottom:5%;
+    left:50%;
+    transform: translateX(-50%);
 }
