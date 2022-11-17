@@ -428,6 +428,7 @@ nav ul li:hover::before {
     gap:1rem;
     height:127vh;
     color:white;  
+    overflow:hidden;
 
 }
 .contact h3 {
@@ -442,14 +443,16 @@ nav ul li:hover::before {
     opacity:0.1;
     position:absolute;
     inset:0;
+    height:100%;
 
    
 }
 .rectangle {
     position:absolute;
     background-color:rgba(0, 0, 0, 0.85);
-    height:129vh;
+    height:100%;
     width:100vw;
+    overflow:hidden;
 
 }
 
@@ -526,6 +529,10 @@ input {
 
 .photograph {
     height:57.5vh;
+    width:100vw;
+    overflow:hidden;
+}
+.photo {
     width:100vw;
 }
 
