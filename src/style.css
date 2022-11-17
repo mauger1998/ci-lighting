@@ -791,3 +791,54 @@ footer > p {
     left:50%;
     transform: translateX(-50%);
 }
+@media (max-width:630px) {
+    footer {
+        display:grid;
+        grid-template-columns: 1fr;
+        place-items:center;
+        
+    }
+    .leftSide p {
+        font-size:1.25rem;
+        text-align:center;
+    }
+    .leftSide p:nth-child(1){
+        font-size:1.5rem;
+    }
+    .rightSide {
+        display:flex;
+        flex-direction: row;
+        gap:1rem;
+        
+    }
+    .tainer {
+        align-items:center;
+        gap:0.5rem;
+    }
+
+}
+@media (max-width:575px) {
+    .tainer {
+        font-size:0.85rem;
+    }
+    .tainer img {
+        width:40px;
+    }
+}
+@media (max-width:505px) {
+    .rightSide {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+    .email {
+        grid-column: span 2;
+        
+    }
+    .copy {
+        font-size:0.75rem;
+        text-align:center;
+    }
+    
+    
+}
