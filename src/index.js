@@ -19,6 +19,9 @@ import thirdProduct from "./images/thirdproduct.png"
 import fourthProduct from "./images/fourthproduct.png"
 import photo from "./images/photo.png"
 import store from "./images/store.png"
+import fb from "./images/fb.png"
+import email from "./images/email.png"
+import phone from "./images/phone.png"
 
 const gsyFlagImg = document.querySelector(".guernsey-flag")
 const searchIconImg = document.querySelector(".search-icon")
