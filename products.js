@@ -40,13 +40,13 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/products.js":
+/*!*************************!*\
+  !*** ./src/products.js ***!
+  \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _images_flag_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/flag.png */ \"./src/images/flag.png\");\n/* harmony import */ var _images_search_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/search.png */ \"./src/images/search.png\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/logo.png */ \"./src/images/logo.png\");\n/* harmony import */ var _images_newheroone_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/newheroone.png */ \"./src/images/newheroone.png\");\n/* harmony import */ var _images_circle_vector_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/circle-vector.png */ \"./src/images/circle-vector.png\");\n/* harmony import */ var _images_icon1_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/icon1.png */ \"./src/images/icon1.png\");\n/* harmony import */ var _images_icon2_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/icon2.png */ \"./src/images/icon2.png\");\n/* harmony import */ var _images_icon3_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./images/icon3.png */ \"./src/images/icon3.png\");\n/* harmony import */ var _images_Group_26_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./images/Group 26.png */ \"./src/images/Group 26.png\");\n/* harmony import */ var _images_customer_icon_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./images/customer-icon.png */ \"./src/images/customer-icon.png\");\n/* harmony import */ var _images_handshake_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./images/handshake.png */ \"./src/images/handshake.png\");\n/* harmony import */ var _images_tick_icon_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./images/tick-icon.png */ \"./src/images/tick-icon.png\");\n/* harmony import */ var _images_Hydra_Motorway_Photo_2_1_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./images/Hydra Motorway Photo (2) 1.png */ \"./src/images/Hydra Motorway Photo (2) 1.png\");\n/* harmony import */ var _images_cable_removebg_preview_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./images/cable-removebg-preview.png */ \"./src/images/cable-removebg-preview.png\");\n/* harmony import */ var _images_firstproduct_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./images/firstproduct.png */ \"./src/images/firstproduct.png\");\n/* harmony import */ var _images_secondproduct_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./images/secondproduct.png */ \"./src/images/secondproduct.png\");\n/* harmony import */ var _images_thirdproduct_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./images/thirdproduct.png */ \"./src/images/thirdproduct.png\");\n/* harmony import */ var _images_fourthproduct_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./images/fourthproduct.png */ \"./src/images/fourthproduct.png\");\n/* harmony import */ var _images_photo_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./images/photo.png */ \"./src/images/photo.png\");\n/* harmony import */ var _images_store_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./images/store.png */ \"./src/images/store.png\");\n/* harmony import */ var _images_fb_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./images/fb.png */ \"./src/images/fb.png\");\n/* harmony import */ var _images_email_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./images/email.png */ \"./src/images/email.png\");\n/* harmony import */ var _images_phone_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./images/phone.png */ \"./src/images/phone.png\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconst gsyFlagImg = document.querySelector(\".guernsey-flag\");\nconst searchIconImg = document.querySelector(\".search-icon\");\nconst logoImg = document.querySelector(\".logo\");\nconst heroSection = document.querySelector(\".hero-section\");\nconst circleText = document.querySelector(\".circle-texture\");\nconst menu = document.querySelector(\".burger\");\nconst serviceIcon = document.querySelector(\".customer\");\nconst handshakeIcon = document.querySelector(\".hands\");\nconst tickIcon = document.querySelector(\".ticks\");\nconst gallery = document.querySelector(\".gallery\");\nconst cableBg = document.querySelector(\".cable\");\nconst first = document.querySelector(\".first\");\nconst second = document.querySelector(\".second\");\nconst third = document.querySelector(\".third\");\nconst fourth = document.querySelector(\".fourth\");\nconst photograph = document.querySelector(\".photo\");\nconst storeImg = document.querySelector(\".storeImg\");\nconst phoneImg = document.querySelector(\".iphone\");\nconst fbImg = document.querySelector(\".facebook\");\nconst mailImg = document.querySelector(\".mail\");\nconst newHero = document.querySelector(\".hero-section-products\");\ngsyFlagImg.src = _images_flag_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\nlogoImg.src = _images_logo_png__WEBPACK_IMPORTED_MODULE_3__[\"default\"];\nheroSection.style.backgroundImage = `url(${_images_newheroone_png__WEBPACK_IMPORTED_MODULE_4__[\"default\"]})`;\ncircleText.src = _images_circle_vector_png__WEBPACK_IMPORTED_MODULE_5__[\"default\"];\nmenu.src = _images_Group_26_png__WEBPACK_IMPORTED_MODULE_9__[\"default\"];\nserviceIcon.src = _images_customer_icon_png__WEBPACK_IMPORTED_MODULE_10__[\"default\"];\nhandshakeIcon.src = _images_handshake_png__WEBPACK_IMPORTED_MODULE_11__[\"default\"];\ntickIcon.src = _images_tick_icon_png__WEBPACK_IMPORTED_MODULE_12__[\"default\"];\ngallery.src = _images_Hydra_Motorway_Photo_2_1_png__WEBPACK_IMPORTED_MODULE_13__[\"default\"];\ncableBg.src = _images_cable_removebg_preview_png__WEBPACK_IMPORTED_MODULE_14__[\"default\"];\nfirst.src = _images_firstproduct_png__WEBPACK_IMPORTED_MODULE_15__[\"default\"];\nsecond.src = _images_secondproduct_png__WEBPACK_IMPORTED_MODULE_16__[\"default\"];\nthird.src = _images_thirdproduct_png__WEBPACK_IMPORTED_MODULE_17__[\"default\"];\nfourth.src = _images_fourthproduct_png__WEBPACK_IMPORTED_MODULE_18__[\"default\"];\nphotograph.src = _images_photo_png__WEBPACK_IMPORTED_MODULE_19__[\"default\"];\nstoreImg.src = _images_store_png__WEBPACK_IMPORTED_MODULE_20__[\"default\"];\nphoneImg.src = _images_phone_png__WEBPACK_IMPORTED_MODULE_23__[\"default\"];\nfbImg.src = _images_fb_png__WEBPACK_IMPORTED_MODULE_21__[\"default\"];\nmailImg.src = _images_email_png__WEBPACK_IMPORTED_MODULE_22__[\"default\"];\n\n//# sourceURL=webpack://ci-lighting/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n//# sourceURL=webpack://ci-lighting/./src/products.js?");
 
 /***/ }),
 
@@ -57,236 +57,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./images/producthero.png */ \"./src/images/producthero.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*,\\n*::before,\\n*::after {\\n    margin:0;\\n    padding:0;\\n    box-sizing:border-box;\\n    font-family: 'Poppins', sans-serif;\\n    overflow-x:hidden;\\n\\n}\\n\\nmain {\\n    height: 400vh;\\n    \\n}\\nheader {\\n    background-color:#0d0d0d;\\n    color:white;\\n    position:fixed;\\n    width:100vw;\\n}\\n.top-bar {\\n    display:flex;\\n    justify-content: space-between;\\n    align-items:center;\\n    padding-inline: 6rem;\\n}\\n.top-bar img {\\n    width:2rem;\\n}\\n.guernsey-flag-section {\\n    display:flex;\\n    align-items:center;\\n    gap:1rem;\\n    font-size:0.8rem;\\n    font-weight:200;\\n}\\n.opening-times-section {\\n    display:flex;\\n    align-items: center;\\n    gap:1.5rem;\\n    font-size:0.8rem;\\n    font-weight:200;\\n}\\n\\n\\n\\nnav {\\n    display:flex;\\n    justify-content: space-between;\\n    align-items: center;\\n    padding-inline:6rem;\\n    z-index:2;\\n}\\nheader {\\n    z-index:2;\\n}\\n.logo-section img {\\n    width:12rem;\\n}\\n.nav-links ul {\\n    display:flex;\\n    list-style:none;\\n    align-items: center;\\n    gap:4rem;\\n    font-size:0.9rem;\\n    font-weight:600;\\n}\\n.nav-links button {\\n    padding:0.25rem 1.5rem;\\n    font-weight:700;\\n    background-color:white;\\n    border:3px solid white;\\n    transition:0.5s;\\n    border-radius:0.25rem;\\n}\\n.burger {\\n    display:none;\\n}\\n\\n/** Nav Media Queries\\n********************/\\n\\n@media (max-width:884px) {\\n    .nav-links {\\n        display:none;\\n    }\\n    nav {\\n        padding-inline:2.5rem;\\n    }\\n    .burger {\\n        display:block;\\n    }\\n}\\n\\n@media (max-width:784px) {\\n    .opening-times-section {\\n        display:none;\\n    }\\n   \\n}\\n@media (max-width:333px) {\\n    .logo-section img {\\n        width:8rem;\\n    }\\n    nav {\\n        justify-content:center;\\n        align-items:center;\\n        padding-top:0.5rem;\\n        padding-bottom:0.5rem;\\n    }\\n    .burger {\\n        padding-inline:1.5rem;  \\n          \\n    }\\n}\\n\\n\\n\\n.first-section {\\n    width:100vw;\\n    height:max-content;\\n    display:flex;\\n    justify-content: center;\\n    align-items: flex-start;\\n    background-color:#0d0d0d;\\n}\\n.hero-section {\\n    width:100vw;\\n    height:60vh;\\n    background-size:cover;\\n    display:flex;\\n    justify-content: flex-end;\\n    padding-right:6rem;\\n    align-items: center;\\n    color:white;\\n    margin-top:5rem;\\n}\\n.title-container {\\n    display:flex;\\n    flex-direction: column;\\n    justify-content: center;\\n    align-items: center;\\n    gap:3rem;\\n}\\n.title-container h1 {\\n    font-size:max(2.25rem, 4vw);\\n    font-weight:700;\\n    text-align:center;\\n    padding-inline:0.5rem;\\n}\\n.title-container p {\\n    font-size:1.15rem;\\n    font-size:max(1.15rem, 1.5vw);\\n    font-weight:300;\\n    padding-inline:1rem;\\n    text-align:center;\\n\\n}\\n.title-container button {\\n    padding:0.4rem 3rem;\\n    font-size:1.25rem;\\n    background-color:white;\\n    color:black;\\n    border:3px solid white;\\n    transition:0.5s;\\n    font-weight:500;\\n}\\n.title-container button:nth-child(1) {\\n    font-weight:700;\\n}\\n\\n\\n/**** Media Queries for hero\\n***************************/\\n@media (max-width:884px) {\\n    .hero-section {\\n        padding-right:0rem;\\n        padding-inline:1rem;\\n        justify-content:center;\\n    }\\n}\\n@media (max-width:600px) {\\n    .title-container button {\\n        word-wrap: nowrap;\\n        width:max-content;\\n        font-size:1rem;\\n        text-align:center;\\n        padding-inline:1.75rem;\\n    }\\n    \\n    .hero-section {\\n        background-position-x:-20rem;\\n        background-repeat: no-repeat;\\n        \\n    }\\n}\\n.title-container button:nth-child(2) {\\n    background-color:rgba(26, 26, 26, 1);\\n    color:white;\\n}\\n.title-container button:nth-child(2):hover {\\n    background-color:white;\\n    color:black;\\n}\\n.title-container button:hover,\\nnav button:hover {\\n    transition:0.5s;\\n    cursor:pointer;\\n    background-color:rgb(26 26 26);\\n    color:white;\\n    \\n}\\n.title-buttons {\\n    display:flex;\\n    gap:1.5rem;\\n}\\nnav ul:hover,\\nnav button {\\n    cursor:pointer;\\n}\\n\\nnav ul li::before {\\n    content:\\\"\\\";\\n    width: 0px;\\n    height:2px;\\n    background-color:white;\\n    position:absolute;\\n    top:75%;\\n    transition:0.5s;\\n}\\nnav ul li:hover::before {\\n    width:70px;\\n}\\n\\n\\n\\n\\n\\n.second-section {\\n    padding-top:5rem;\\n    display:flex;\\n    flex-direction:column;\\n    justify-content: flex-start;\\n    align-items: center;\\n    font-size:1.5rem;\\n    height:73vh;\\n    position:relative;\\n    gap:6rem;\\n    padding-inline:2rem;\\n}\\n.cards {\\n    display:flex;\\n    gap:1.5rem;\\n    overflow:visible;\\n}\\n.circle-texture {\\n    position:absolute;\\n    opacity:0.1;\\n    left:32%;\\n    top:2%;\\n    width:10rem;\\n}\\n.card {\\n    background-color:rgb(241, 240, 240);\\n    display:flex;\\n    flex-direction:column;\\n    justify-content: space-evenly;\\n    align-items: center;\\n    padding:2rem;\\n    gap:0.5rem;\\n    position:relative;\\n    padding-top:4rem;\\n    padding-bottom:1.5rem;\\n    text-align:center;\\n    z-index:-1;\\n    overflow:visible;\\n\\n}\\n.icon {\\n    position:absolute;\\n    top:-25%;\\n}\\n.hands,\\n.ticks {\\n    top:-20%;\\n}\\n.card h3 {\\n    font-weight:600;\\n    font-size:1.5rem;\\n}\\n.card p {\\n    font-size:1rem;\\n}\\n.card button {\\n    padding: 0.5rem 4rem;\\n    font-size:1rem;\\n    border:2px solid black;\\n    margin-top:0.5rem;\\n    border-radius:0.25rem;\\n    font-weight:500;\\n    background-color:white;\\n    margin-top:1.5rem;\\n}\\n\\n@media (max-width: 1216px) {\\n    .card h3 {\\n        font-size:1.25rem;\\n    }\\n    .card button {\\n        padding:0.3rem 3rem;\\n    }\\n}\\n@media (max-width: 1054px) {\\n    .hands,\\n    .ticks {\\n        top:-15%;\\n    }\\n}\\n@media (max-width:868px) {\\n    .cards {\\n        flex-direction:column;\\n        gap:5rem;\\n    }\\n    .second-section {\\n        text-align:center;\\n        height:150vh;\\n    }\\n}\\n\\n\\n\\n\\n\\n.third-section {\\n    height:60vh;\\n    background-color:rgb(236, 236, 236);\\n    display:flex;\\n    flex-direction: column;\\n    justify-content: flex-start;\\n    align-items: center;\\n    gap:3rem;\\n    font-size:1.5rem;\\n    padding:2.5rem;\\n    position:relative;\\n    overflow:hidden;\\n    text-align:center;\\n\\n   \\n}\\n.gallery-container {\\n    display:flex;\\n    justify-content: center;\\n    align-items: center;\\n    gap:2rem;\\n    overflow:hidden;\\n\\n\\n}\\n.gallery-container svg {\\n    width:50px;\\n}\\n.gallery-container svg:nth-child(1) {\\n    transform: rotateZ(-90deg)\\n}\\n.gallery-container svg:nth-child(3) {\\n    transform: rotateZ(90deg)\\n}\\n.gallery {\\n    z-index:1;\\n}\\n.cable {\\n    position:absolute;\\n    opacity:0.3;\\n    right:-2%;\\n    top:3%;\\n    transform:rotateZ(50deg) scale(1.1);\\n    z-index:0;\\n}\\n\\n@media (max-width:884px) {\\n    .cable {\\n        width:min(15rem, 22vw);\\n        transform:rotateZ(55deg);\\n        top:0%;\\n        right:-3%;\\n    }\\n    .third-section {\\n        height:max-content;\\n        padding-bottom:5rem;\\n    }\\n    \\n}\\n@media (max-width:863px) {\\n    .gallery {\\n        width: min(80vw, 50rem);\\n        \\n    }\\n    .third-section h3 {\\n        font-size:1.75rem;\\n    }\\n}\\n@media (max-width:791px) {\\n    .gallery-container svg {\\n        display:none;\\n    }\\n    .third-section h3 {\\n        font-size:1.5rem;\\n    }\\n}\\n\\n@media (max-width:500px) {\\n    .third-section h3 {\\n        font-size:1rem;\\n    }\\n}\\n\\n\\n\\n.products {\\n    display:flex;\\n    flex-direction:column;\\n    justify-content:flex-start;\\n    align-items:center;\\n    padding:6rem;\\n    padding-bottom:8rem;\\n    gap:4rem;\\n    text-align:center;\\n}\\n.product-container {\\n    display:flex;\\n    justify-content:center;\\n    align-items:center;\\n    gap:4vw;\\n}\\n.products h3 {\\n    font-size:2rem;\\n    width:max-content;\\n}\\n\\n@media (max-width:1380px) {\\n    .product-container {\\n        display:grid;\\n        grid-template-columns: 1fr 1fr;\\n        gap:3rem;\\n    }\\n\\n}\\n@media (max-width:802px) {\\n   .product-container {\\n    grid-template-columns: 1fr;\\n   }\\n}\\n@media (max-width: 492px) {\\n    .products {\\n        padding-inline:2rem;\\n    }\\n    .products h3 {\\n        font-size:1.5rem;\\n    }\\n}\\n@media (max-width:370px) {\\n    .products {\\n        padding-inline:1rem;\\n    }\\n}\\n.container {\\n    display:flex;\\n    flex-direction: column;\\n    align-items:center;\\n    justify-content: center;\\n    font-size:1.15rem;\\n    gap:0.75rem;\\n}\\n.container h4 {\\n    font-weight:600;\\n    background-color:rgb(236, 236, 236);\\n    padding-inline:1.5rem;\\n    padding-block: 0.5rem;\\n    width:100%;\\n    display:flex;\\n    justify-content: center;\\n    align-items: center;\\n}\\n.first + h4 {\\n    padding-inline:2.75rem;\\n}\\n.second + h4 {\\n    padding-inline:3.75rem;\\n}\\n.third + h4 {\\n    padding-inline:3.25rem;\\n}\\n.fourth + h4 {\\n    padding-inline:2rem;\\n}\\n\\n.contact {\\n    position:relative;\\n    display:flex;\\n    flex-direction: column;\\n    align-items:center;\\n    justify-content:center;\\n    padding:6rem;\\n    gap:1rem;\\n    height:127vh;\\n    color:white;  \\n    overflow:hidden;\\n    text-align: center;\\n\\n}\\n.contact h3 {\\n    font-size:2rem;\\n    z-index:1;\\n    overflow:hidden;\\n}\\n.contact p {\\n    font-size:1rem;\\n    z-index:1;\\n    overflow:hidden;\\n}\\n.svg {\\n    opacity:0.5;\\n    position:absolute;\\n    inset:0;\\n    height:100%;\\n\\n   \\n}\\n.rectangle {\\n    position:absolute;\\n    background-color:rgba(0, 0, 0, 0.85);\\n    height:100%;\\n    width:100vw;\\n    overflow:hidden;\\n\\n}\\n\\n\\n\\nfieldset {\\n    display:flex;\\n    flex-direction: column;\\n    align-items: center;\\n    justify-content: center;\\n    gap:0.5rem;\\n    color:white;\\n    overflow:hidden;\\n}\\n.first-line {\\n    display:flex;\\n    gap:0.5rem;\\n}\\n.first-line p {\\n    display:flex;\\n    flex-direction: column;\\n    justify-content: center;\\n    align-items: center;\\n    font-size:1rem;\\n}\\n.message {\\n    display:flex;\\n    flex-direction: column;\\n}\\n.message label {\\n    font-size:1rem;\\n}\\nform button {\\n    padding:0.5rem 20.5rem;\\n    font-weight:600;\\n    font-size:1rem;\\n    border-radius:0.5rem;\\n    border:none;\\n    background-color:lightgray;\\n    color:black;\\n    margin-top:0.5rem;\\n    width:100%;\\n}\\nform {\\n    overflow:hidden;\\n}\\nform button span {\\n    padding-left:1rem;\\n}\\n#name {\\n    background-color:white;\\n}\\n#email {\\n    background-color:white;\\n}\\nform {\\n    /* background-color:white; */\\n    z-index:1;\\n    border:none;\\n    outline:none;\\n    padding-top:3rem;\\n    \\n}\\nfieldset {\\n    border:none;\\n}\\nlegend {\\n    padding:0.5rem;\\n}\\nlabel {\\n    align-self:flex-start;\\n}\\ninput {\\n    width:15rem;\\n    height:2rem;\\n    border:none;\\n}\\n@media (max-width:865px) {\\n    .message {\\n        width:66%;\\n    }\\n    .first-line {\\n        display:grid;\\n        grid-template-columns:1fr;\\n    }\\n    input {\\n        width:30rem;\\n    }\\n    form button {\\n        width:30.5rem;\\n        padding-inline:0;\\n    }\\n}\\n@media (max-width:549px) {\\n    .message {\\n        width:60%;\\n    }\\n    input {\\n        width:27.5rem;\\n    }\\n    form button {\\n        width:27.5rem;\\n    }\\n}\\n@media (max-width:502px) {\\n    .message {\\n        width:50%;\\n    }\\n    input,\\n    form button {\\n        width:23rem;\\n    }\\n    .contact p {\\n        font-size:0.85rem;\\n        background-color:inherit;\\n    }\\n    .contact h3 {\\n        font-size:1.25rem;\\n    }\\n    .contact {\\n        height:112vh;\\n        \\n    }\\n    .svg {\\n        height:100vh;\\n    }\\n}\\n@media (max-width:446px) {\\n    \\n    .message {\\n        width:42.5%;\\n    }\\n    input,\\n    form button {\\n        width:19.5rem;\\n    }\\n    form button {\\n        width:100%;\\n    }\\n    .contact {\\n        padding-bottom:0;\\n        \\n    }\\n}\\n@media (max-width:360px) {\\n    .hello {\\n        width:150%;\\n    }\\n    .contact {\\n        padding-bottom:0;\\n    }\\n    \\n}\\n\\n\\n.photograph {\\n    height:max-content;\\n    width:100vw;\\n    overflow:hidden;\\n}\\n.photo {\\n    width:100vw;\\n}\\n\\n\\n\\n.store {\\n    height:110vh;\\n    width:100vw;\\n    display:flex;\\n    flex-direction: column;\\n    align-items: center;\\n    justify-content: center;\\n    font-size:1.75rem;\\n    gap:4rem;\\n}\\n\\n@media (max-width:1380px) {\\n    .store {\\n        height:90vh;\\n        padding-top:1rem;\\n    }\\n}\\n@media (max-width:929px) {\\n    .store img {\\n        width:75vw;\\n        align-self: center;\\n    }\\n    .store {\\n        font-size:1.25rem;\\n\\n    }\\n}\\n@media (max-width:699px) {\\n    .store {\\n        font-size:1.25rem;\\n        padding-top:3rem;\\n        height:60vh;\\n        margin-bottom:5rem;\\n        \\n    }\\n    .store img {\\n        width:90vw;\\n    }\\n}\\n@media (max-width:507px) {\\n    .store h3 {\\n        width:50%;\\n        text-align:center;\\n    }\\n}\\n@media (max-width: 488px) {\\n    .store {\\n        font-size:1rem;\\n        height:45vh;\\n    }\\n}\\n\\n\\n\\nfooter {\\n    height:60vh;\\n    background-color:rgba(0, 0, 0, 0.9);\\n    color:white;\\n    display:flex;\\n    padding-block:4rem;\\n    gap:6rem;\\n    align-items: center;\\n    justify-content: center;\\n    overflow:hidden;\\n    position:relative;\\n}\\n.leftSide p {\\n    font-size:1.5rem;\\n    font-weight:200;\\n    \\n}\\n.leftSide p:nth-child(1) {\\n    font-size:2rem;\\n    font-weight:700;\\n}\\n\\n.rightSide img {\\n    width:50px;\\n}\\n.rightSide {\\n    display:flex;\\n    flex-direction: column;\\n    gap:3rem;\\n\\n}\\n.tainer {\\n    display:flex;\\n    flex-direction: row;\\n    justify-content: flex-start;\\n    text-align:left;\\n    gap:2rem;\\n\\n    \\n}\\nfooter > p {\\n    position:absolute;\\n    bottom:5%;\\n    left:50%;\\n    transform: translateX(-50%);\\n}\\n@media (max-width:630px) {\\n    footer {\\n        display:grid;\\n        grid-template-columns: 1fr;\\n        place-items:center;\\n        \\n    }\\n    .leftSide p {\\n        font-size:1.25rem;\\n        text-align:center;\\n    }\\n    .leftSide p:nth-child(1){\\n        font-size:1.5rem;\\n    }\\n    .rightSide {\\n        display:flex;\\n        flex-direction: row;\\n        gap:1rem;\\n        \\n    }\\n    .tainer {\\n        align-items:center;\\n        gap:0.5rem;\\n    }\\n\\n}\\n@media (max-width:575px) {\\n    .tainer {\\n        font-size:0.85rem;\\n    }\\n    .tainer img {\\n        width:40px;\\n    }\\n}\\n@media (max-width:505px) {\\n    .rightSide {\\n        display:grid;\\n        grid-template-columns: 1fr 1fr;\\n        place-items: center;\\n    }\\n    .email {\\n        grid-column: span 2;\\n        \\n    }\\n    .copy {\\n        font-size:0.75rem;\\n        text-align:center;\\n    }\\n    \\n    \\n}\\n\\na {\\n    text-decoration: none;\\n    color:white;\\n}\\n\\n.hero-section-products {\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://ci-lighting/./src/style.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./src/images/Group 26.png":
-/*!*********************************!*\
-  !*** ./src/images/Group 26.png ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Group 26.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/Group_26.png?");
-
-/***/ }),
-
-/***/ "./src/images/Hydra Motorway Photo (2) 1.png":
-/*!***************************************************!*\
-  !*** ./src/images/Hydra Motorway Photo (2) 1.png ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Hydra Motorway Photo (2) 1.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/Hydra_Motorway_Photo_(2)_1.png?");
-
-/***/ }),
-
-/***/ "./src/images/cable-removebg-preview.png":
-/*!***********************************************!*\
-  !*** ./src/images/cable-removebg-preview.png ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/cable-removebg-preview.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/cable-removebg-preview.png?");
-
-/***/ }),
-
-/***/ "./src/images/circle-vector.png":
-/*!**************************************!*\
-  !*** ./src/images/circle-vector.png ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/circle-vector.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/circle-vector.png?");
-
-/***/ }),
-
-/***/ "./src/images/customer-icon.png":
-/*!**************************************!*\
-  !*** ./src/images/customer-icon.png ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/customer-icon.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/customer-icon.png?");
-
-/***/ }),
-
-/***/ "./src/images/email.png":
-/*!******************************!*\
-  !*** ./src/images/email.png ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/email.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/email.png?");
-
-/***/ }),
-
-/***/ "./src/images/fb.png":
-/*!***************************!*\
-  !*** ./src/images/fb.png ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/fb.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/fb.png?");
-
-/***/ }),
-
-/***/ "./src/images/firstproduct.png":
-/*!*************************************!*\
-  !*** ./src/images/firstproduct.png ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/firstproduct.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/firstproduct.png?");
-
-/***/ }),
-
-/***/ "./src/images/flag.png":
-/*!*****************************!*\
-  !*** ./src/images/flag.png ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/flag.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/flag.png?");
-
-/***/ }),
-
-/***/ "./src/images/fourthproduct.png":
-/*!**************************************!*\
-  !*** ./src/images/fourthproduct.png ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/fourthproduct.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/fourthproduct.png?");
-
-/***/ }),
-
-/***/ "./src/images/handshake.png":
-/*!**********************************!*\
-  !*** ./src/images/handshake.png ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/handshake.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/handshake.png?");
-
-/***/ }),
-
-/***/ "./src/images/icon1.png":
-/*!******************************!*\
-  !*** ./src/images/icon1.png ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/icon1.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/icon1.png?");
-
-/***/ }),
-
-/***/ "./src/images/icon2.png":
-/*!******************************!*\
-  !*** ./src/images/icon2.png ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/icon2.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/icon2.png?");
-
-/***/ }),
-
-/***/ "./src/images/icon3.png":
-/*!******************************!*\
-  !*** ./src/images/icon3.png ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/icon3.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/icon3.png?");
-
-/***/ }),
-
-/***/ "./src/images/logo.png":
-/*!*****************************!*\
-  !*** ./src/images/logo.png ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/logo.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/logo.png?");
-
-/***/ }),
-
-/***/ "./src/images/newheroone.png":
-/*!***********************************!*\
-  !*** ./src/images/newheroone.png ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/newheroone.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/newheroone.png?");
-
-/***/ }),
-
-/***/ "./src/images/phone.png":
-/*!******************************!*\
-  !*** ./src/images/phone.png ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/phone.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/phone.png?");
-
-/***/ }),
-
-/***/ "./src/images/photo.png":
-/*!******************************!*\
-  !*** ./src/images/photo.png ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/photo.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/photo.png?");
-
-/***/ }),
-
-/***/ "./src/images/search.png":
-/*!*******************************!*\
-  !*** ./src/images/search.png ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/search.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/search.png?");
-
-/***/ }),
-
-/***/ "./src/images/secondproduct.png":
-/*!**************************************!*\
-  !*** ./src/images/secondproduct.png ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/secondproduct.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/secondproduct.png?");
-
-/***/ }),
-
-/***/ "./src/images/store.png":
-/*!******************************!*\
-  !*** ./src/images/store.png ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/store.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/store.png?");
-
-/***/ }),
-
-/***/ "./src/images/thirdproduct.png":
-/*!*************************************!*\
-  !*** ./src/images/thirdproduct.png ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/thirdproduct.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/thirdproduct.png?");
-
-/***/ }),
-
-/***/ "./src/images/tick-icon.png":
-/*!**********************************!*\
-  !*** ./src/images/tick-icon.png ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/tick-icon.png\");\n\n//# sourceURL=webpack://ci-lighting/./src/images/tick-icon.png?");
 
 /***/ }),
 
@@ -480,7 +250,7 @@ eval("module.exports = __webpack_require__.p + \"9b1d42981fc0a200efc5.png\";\n\n
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"index": 0
+/******/ 			"products": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -508,7 +278,7 @@ eval("module.exports = __webpack_require__.p + \"9b1d42981fc0a200efc5.png\";\n\n
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/products.js");
 /******/ 	
 /******/ })()
 ;
