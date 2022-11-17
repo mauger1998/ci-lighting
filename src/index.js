@@ -40,6 +40,9 @@ const third = document.querySelector(".third")
 const fourth = document.querySelector(".fourth")
 const photograph = document.querySelector(".photo")
 const storeImg = document.querySelector(".storeImg")
+const phoneImg = document.querySelector(".iphone")
+const fbImg = document.querySelector(".facebook")
+const mailImg = document.querySelector(".mail")
 
 
 
@@ -59,4 +62,6 @@ third.src = thirdProduct
 fourth.src = fourthProduct
 photograph.src = photo
 storeImg.src = store
-
+phoneImg.src = phone
+fbImg.src = fb
+mailImg.src = email
