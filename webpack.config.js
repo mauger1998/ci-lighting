@@ -36,14 +36,18 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
   },
-  plugins: [new HtmlWebpackPlugin({
+  plugins: [
+    new HtmlWebpackPlugin({
     template: "./src/index.html",
-    title: "... app",
     filename: "index.html",
   }),
+  new HtmlWebpackPlugin({
+    template: "./src/products.html",
+    filename: "products.html",
+  })
 
   ],
-  mode: "production",
+  mode: "development",
   devServer: {
     port: 3900,
     hot: true,
