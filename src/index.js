@@ -23,6 +23,7 @@ import fb from "./images/fb.png"
 import email from "./images/email.png"
 import phone from "./images/phone.png"
 
+
 const gsyFlagImg = document.querySelector(".guernsey-flag")
 const searchIconImg = document.querySelector(".search-icon")
 const logoImg = document.querySelector(".logo")
@@ -43,7 +44,7 @@ const storeImg = document.querySelector(".storeImg")
 const phoneImg = document.querySelector(".iphone")
 const fbImg = document.querySelector(".facebook")
 const mailImg = document.querySelector(".mail")
-
+const newHero = document.querySelector(".hero-section-products")
 
 
 gsyFlagImg.src = gsyFlag
@@ -65,3 +66,5 @@ storeImg.src = store
 phoneImg.src = phone
 fbImg.src = fb
 mailImg.src = email
+
+

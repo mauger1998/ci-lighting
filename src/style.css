@@ -172,6 +172,7 @@ header {
     font-weight:700;
 }
 
+
 /**** Media Queries for hero
 ***************************/
 @media (max-width:884px) {
@@ -850,4 +851,13 @@ footer > p {
     }
     
     
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.hero-section-products {
+    background-image: url(./images/producthero.png);
 }

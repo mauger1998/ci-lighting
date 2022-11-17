@@ -3,7 +3,11 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: {
+    index: "./src/index.js",
+    products: "./src/products.js",
+  },
+  
   module: {
     rules: [
       {
@@ -33,17 +37,20 @@ module.exports = {
     ],
   },
   output: {
-    filename: "main.js",
+    filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
+    
   },
   plugins: [
     new HtmlWebpackPlugin({
     template: "./src/index.html",
     filename: "index.html",
+    
   }),
   new HtmlWebpackPlugin({
     template: "./src/products.html",
     filename: "products.html",
+    chunks: ["products"],
   })
 
   ],
