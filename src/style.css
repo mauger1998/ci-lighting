@@ -406,6 +406,7 @@ nav ul li:hover::before {
     padding:6rem;
     padding-bottom:8rem;
     gap:4rem;
+    text-align:center;
 }
 .product-container {
     display:flex;
@@ -415,8 +416,33 @@ nav ul li:hover::before {
 }
 .products h3 {
     font-size:2rem;
+    width:max-content;
 }
 
+@media (max-width:1380px) {
+    .product-container {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:802px) {
+   .product-container {
+    grid-template-columns: 1fr;
+   }
+}
+@media (max-width: 492px) {
+    .products {
+        padding-inline:2rem;
+    }
+    .products h3 {
+        font-size:1.5rem;
+    }
+}
+@media (max-width:370px) {
+    .products {
+        padding-inline:1rem;
+    }
+}
 .container {
     display:flex;
     flex-direction: column;
