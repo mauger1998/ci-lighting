@@ -250,6 +250,8 @@ nav ul li:hover::before {
     position:relative;
     gap:6rem;
     padding-inline:2rem;
+    margin-bottom:4rem;
+    overflow:hidden;
 }
 .cards {
     display:flex;
@@ -342,7 +344,7 @@ nav ul li:hover::before {
     }
     .second-section {
         text-align:center;
-        height:150vh;
+        height:200vh;
     }
 }
 
@@ -351,18 +353,20 @@ nav ul li:hover::before {
 
 
 .third-section {
-    height:60vh;
+    height:90vh;
     background-color:rgb(236, 236, 236);
     display:flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    gap:3rem;
+    gap:5rem;
     font-size:1.5rem;
     padding:2.5rem;
     position:relative;
-    overflow:hidden;
+    overflow:visible;
     text-align:center;
+    font-size:2rem;
+    
 
    
 }
@@ -371,8 +375,8 @@ nav ul li:hover::before {
     justify-content: center;
     align-items: center;
     gap:2rem;
-    overflow:hidden;
-
+    overflow:visible;
+    padding-bottom:4rem;
 
 }
 .gallery-container svg {
@@ -386,6 +390,8 @@ nav ul li:hover::before {
 }
 .gallery {
     z-index:1;
+    width:900px;
+    overflow:visible;
 }
 .cable {
     position:absolute;
@@ -523,7 +529,7 @@ nav ul li:hover::before {
     gap:1rem;
     height:127vh;
     color:white;  
-    overflow:hidden;
+    :hidden;
     text-align: center;
 
 }
