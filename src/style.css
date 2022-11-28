@@ -8,6 +8,7 @@
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
     overflow-x:hidden;
+    
 
 }
 
@@ -939,3 +940,128 @@ a {
     margin-right:35px;
     
 }
+
+.product-cards {
+    overflow:visible;
+    padding-top:5rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:flex-start;
+    border:2px solid red;
+    height:400vh;
+    max-height:100rem;
+    gap:0rem;
+}
+.best-seller-card-title {
+    position:relative;
+    overflow:visible;
+    height:22rem;
+}
+.pencil,
+.best-seller-title {
+    position: absolute;
+    top:0%;
+}
+.best-seller-title {
+    top:60%;
+    left:15%;
+    font-size:2.5rem;
+}
+
+.product-card-grid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1rem;
+    place-items:end;
+    overflow:visible;
+}
+.best-seller-card {
+    background-color:#F5F7FB;
+    width:max-content;
+    width:30rem;
+    height:20rem;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding:2rem;
+    overflow:visible;
+    position:relative;
+    
+
+}
+.best-seller-card-title {
+    align-self:flex-start;
+    width:100%;
+}
+.best-seller-card h3 {
+    font-size:1.5rem;
+    width:70%;
+}
+.best-seller-card:nth-child(2) h3 {
+    width:100%;
+}
+.product-names {
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:1rem;
+    overflow:visible;
+
+}
+.best-seller-card:nth-child(2), 
+.best-seller-card:nth-child(3) {
+    padding-block:7rem;    height:12rem
+}
+.best-seller-card:nth-child(2), 
+.best-seller-card:nth-child(4) {
+    place-self:start;
+    
+}
+.product-first,
+
+.product-third,
+.product-fourth {
+    width:200px;
+    position:absolute;
+    right:5%;
+   
+}
+.product-second {
+    width:100px;
+    position:absolute;
+    right:15%;
+}
+.product-fourth {
+    width:225px;
+}
+.product-third {
+    width:300px;
+    right:-5%;
+}
+.best-seller-card button {
+    padding:0.5rem 1.5rem;
+    font-size:1rem;
+    font-weight:bold;
+    border-radius:0.75rem;
+    border:1px solid black;
+    background-color:#F5F7FB;
+    
+}
+.product-paragraph {
+    width:80%;
+    align-self:flex-start;
+    padding-left:14.5rem;
+    line-height:2.5;
+    margin-bottom:10rem;
+}
+.titles-for-shop-by-brand h3 {
+    font-size:1.75rem;
+    width:30ch;
+}
+
+
+
+
+
