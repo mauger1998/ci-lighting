@@ -34,6 +34,13 @@ let QUERY = encodeURIComponent('*[_type == "product"]')
 
 let PROJECT_URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
 
+let newQuery = encodeURIComponent(`*[_type == 'person']{
+    name,
+    "imageUrl": image.asset->url
+  }`)
+
+let newUrl = `https://1x7me4qh.api.sanity.io/v2021-10-21/data/query/production?query=*%5B_type%20%3D%3D%20'product'%5D%7B%0A%20%20name%2C%0A%20%20%22imageUrl%22%3A%20image.asset-%3Eurl%0A%7D`
+
 fetch(PROJECT_URL)
     .then((res) => res.json())
     .then(({ result })=> {
@@ -50,19 +57,27 @@ fetch(PROJECT_URL)
                 let gridDescription = document.createElement("p")
                 let gridCode = document.createElement("p")
                 let gridButton = document.createElement("button")
+                let container = document.createElement("div")
 
+                gridItem.appendChild(container)
+                container.classList.add("container")
+                
+
+
+                
                 gridTitle.textContent = product.name
                 gridBrand.textContent = product.brand
                 gridDescription.textContent = product.description 
                 gridCode.textContent = product.productCode
                 gridButton.textContent = "See More"
 
-                gridItem.appendChild(gridTitle)
-                gridItem.appendChild(gridBrand)
-                gridItem.appendChild(gridDescription)
-                gridItem.appendChild(gridCode)
+                container.appendChild(gridTitle)
+                container.appendChild(gridBrand)
+                container.appendChild(gridDescription)
+                container.appendChild(gridCode)
                 grid.appendChild(gridItem)
-                gridItem.appendChild(gridButton)
+                container.appendChild(gridButton)
+            
 
                 gridItem.classList.add("gridItem")
 
@@ -75,4 +90,32 @@ fetch(PROJECT_URL)
         }
     })
     .catch((err) => console.error(err))
+
+    fetch(newUrl)
+    .then((res) => res.json())
+    .then(({ result })=> {
+        let grid = document.querySelector(".product-data-grid")
+        
+        let firstGridItem = document.querySelector(".grid-item")
+
+        if (result.length > 0) {
+            
+
+            result.forEach((image, index) => {
+                let gridItems = Array.from(document.querySelectorAll(".gridItem"))
+                let newImg = document.createElement("img")
+                newImg.src = image.imageUrl
+                newImg.classList.add("makeSmall")
+                gridItems[index].appendChild(newImg)
+                
+                
+            })
+            
+            
+        }
+    })
+    .catch((err) => console.error(err))
+
+ 
+  
    

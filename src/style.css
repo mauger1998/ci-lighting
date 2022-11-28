@@ -528,9 +528,8 @@ nav ul li:hover::before {
     justify-content:center;
     padding:6rem;
     gap:1rem;
-    height:127vh;
     color:white;  
-    :hidden;
+    overflow:hidden;
     text-align: center;
 
 }
@@ -591,15 +590,27 @@ fieldset {
     font-size:1rem;
 }
 form button {
-    padding:0.5rem 20.5rem;
+    padding:0.25rem 18.5rem;
     font-weight:600;
-    font-size:1rem;
+    font-size:1.5rem;
     border-radius:0.5rem;
     border:none;
     background-color:lightgray;
     color:black;
     margin-top:0.5rem;
     width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+form button span {
+    font-size:1.75rem;
+}
+input {
+    padding:0.2rem;
+}
+input:focus {
+    outline:2px solid black;
 }
 form {
     overflow:hidden;
@@ -635,6 +646,7 @@ input {
     height:2rem;
     border:none;
 }
+
 @media (max-width:865px) {
     .message {
         width:66%;
@@ -734,6 +746,8 @@ input {
     gap:8rem;
     padding:5rem;
     padding-top:10rem;
+    height:max-content;
+    text-align:center;
 }
 .address-delivery h3 {
     font-size:1.5rem;
@@ -771,43 +785,37 @@ input {
 }
 
 @media (max-width:1380px) {
-    .store {
-        height:90vh;
-        padding-top:1rem;
-    }
+    
 }
 @media (max-width:929px) {
     .store img {
-        width:75vw;
         align-self: center;
     }
-    .store {
-        font-size:1.25rem;
-
-    }
+    
 }
 @media (max-width:699px) {
     .store {
         font-size:1.25rem;
-        padding-top:3rem;
-        height:60vh;
-        margin-bottom:5rem;
         
     }
-    .store img {
-        width:90vw;
+    .address-delivery h3 {
+        font-size:1.15rem;
+    }
+    .address-delivery p {
+        font-size:1rem;
+        width:10rem;;
     }
 }
 @media (max-width:507px) {
     .store h3 {
-        width:50%;
+        
         text-align:center;
     }
 }
 @media (max-width: 488px) {
     .store {
         font-size:1rem;
-        height:45vh;
+        
     }
 }
 
@@ -1112,26 +1120,18 @@ a {
 }
 .gridItem {
     border:1px solid black;
-    display:flex;
-    flex-direction:column;
-    gap:1rem;
-    padding:1rem;
-    word-wrap:wrap;
-    align-items: flex-start;
-    padding-bottom:2rem;
-    justify-content:space-between;
-    border-radius:1rem;
+    
 }
 .gridItem h3
  {
-    width:40%;
+    width:90%;
 }
 .titles-for-shop-by-brand {
     padding-inline:2rem;
     padding-top:3rem;
 }
 .gridItem p {
-    width:50%;
+    width:90%;
 }
 .gridItem button {
     padding:0.3rem 1rem;
@@ -1150,6 +1150,31 @@ a {
     transition:0.5s;
     cursor:pointer;
 }
-
+.container {
+    display:flex;
+    width:60%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    word-wrap:wrap;
+    align-items: flex-start;
+    padding-bottom:2rem;
+    justify-content:space-between;
+    border-radius:1rem;
+}
+.gridItem {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left:1rem;
+    padding-block:1rem;
+    border-radius:1rem;
+    
+}
+.makeSmall {
+    width:150px;
+}
 
 
