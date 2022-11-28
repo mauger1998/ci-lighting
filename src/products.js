@@ -60,7 +60,7 @@ fetch(PROJECT_URL)
                 let container = document.createElement("div")
 
                 gridItem.appendChild(container)
-                container.classList.add("container")
+                container.classList.add("containerOne")
                 
 
 

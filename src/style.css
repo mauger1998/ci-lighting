@@ -1153,7 +1153,7 @@ a {
     transition:0.5s;
     cursor:pointer;
 }
-.container {
+.containerOne {
     display:flex;
     width:60%;
     height:100%;
