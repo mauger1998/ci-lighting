@@ -46,6 +46,8 @@ const phoneImg = document.querySelector(".iphone")
 const fbImg = document.querySelector(".facebook")
 const mailImg = document.querySelector(".mail")
 const newHero = document.querySelector(".hero-section-products")
+const contactButton = document.querySelector(".scrollto")
+const contactSection = document.querySelector(".contact")
 
 
 
@@ -66,7 +68,8 @@ phoneImg.src = phone
 fbImg.src = fb
 mailImg.src = email
 
-
-
-
+contactButton.addEventListener("click", (e) => {
+    console.log("clicked")
+    contactSection.scrollIntoView()
+})
 

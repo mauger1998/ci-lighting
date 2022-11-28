@@ -16,6 +16,11 @@ const productOne = document.querySelector(".product-first")
 const productTwo = document.querySelector(".product-second")
 const productThree = document.querySelector(".product-third")
 const productFour = document.querySelector(".product-fourth")
+const prolink = document.querySelector("#prolink")
+
+prolink.addEventListener("click", (e) => {
+    location.reload()
+})
 
 
 logoImg.src = logo
@@ -88,10 +93,7 @@ fetch(PROJECT_URL)
             
             
         }
-    })
-    .catch((err) => console.error(err))
-
-    fetch(newUrl)
+    }).then(fetch(newUrl)
     .then((res) => res.json())
     .then(({ result })=> {
         let grid = document.querySelector(".product-data-grid")
@@ -119,3 +121,12 @@ fetch(PROJECT_URL)
  
   
    
+
+
+
+
+
+)
+    
+
+    
