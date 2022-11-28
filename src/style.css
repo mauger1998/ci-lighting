@@ -70,7 +70,7 @@ header {
     font-weight:600;
 }
 .nav-links button {
-    padding:0.25rem 1.5rem;
+    padding:0.15rem 1rem;
     font-weight:700;
     background-color:white;
     border:3px solid white;
@@ -278,7 +278,7 @@ nav ul li:hover::before {
     position:relative;
     padding-bottom:1.5rem;
     text-align:center;
-    z-index:-1;
+    z-index:;
     overflow:visible;
     border:1px solid black;
     text-align:left;
@@ -288,19 +288,13 @@ nav ul li:hover::before {
     padding-bottom:3rem;
 
 }
+
 .card svg {
     position:absolute;
     top:5%; 
     right:5%;
 }
-.icon {
-    position:absolute;
-    top:-25%;
-}
-.hands,
-.ticks {
-    top:-20%;
-}
+
 .card h3 {
     font-weight:600;
     font-size:1.25rem;
@@ -324,13 +318,12 @@ nav ul li:hover::before {
     margin-top:0rem;
 }
 
+
 @media (max-width: 1216px) {
     .card h3 {
         font-size:1.25rem;
     }
-    .card button {
-        padding:0.3rem 3rem;
-    }
+   
 }
 @media (max-width: 1054px) {
     .hands,
@@ -349,9 +342,16 @@ nav ul li:hover::before {
     }
 }
 
+.seemore {
+    font-weight:500 !important;
+}
 
-
-
+.seemore:hover {
+    color:black;
+    cursor:pointer;
+    background-color:white;
+    border:1px solid black;
+}
 
 .third-section {
     height:90vh;
@@ -396,10 +396,10 @@ nav ul li:hover::before {
 }
 .cable {
     position:absolute;
-    opacity:0.3;
+    opacity:0.1;
     right:-2%;
     top:3%;
-    transform:rotateZ(50deg) scale(1.1);
+    transform:rotateZ(55deg) scale(1.1);
     z-index:0;
 }
 
@@ -1069,8 +1069,9 @@ a {
     display:grid;
     padding-block:5rem;
     padding-inline:2rem;
-    gap:1rem;
+    gap:2rem;
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2rem;
     
 
 }
@@ -1084,6 +1085,7 @@ a {
     align-items: flex-start;
     padding-bottom:2rem;
     justify-content:space-between;
+    border-radius:1rem;
 }
 .gridItem h3
  {
@@ -1104,7 +1106,15 @@ a {
     font-size:1rem;
     font-weight:bold;
     align-self:center;
+    transition:0.5s;
     
 }
+.gridItem button:hover {
+    background-color:black;
+    color:white;
+    transition:0.5s;
+    cursor:pointer;
+}
+
 
 
