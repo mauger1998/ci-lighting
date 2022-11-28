@@ -24,6 +24,7 @@ import email from "./images/email.png"
 import phone from "./images/phone.png"
 
 
+
 const gsyFlagImg = document.querySelector(".guernsey-flag")
 const searchIconImg = document.querySelector(".search-icon")
 const logoImg = document.querySelector(".logo")
@@ -47,6 +48,7 @@ const mailImg = document.querySelector(".mail")
 const newHero = document.querySelector(".hero-section-products")
 
 
+
 gsyFlagImg.src = gsyFlag
 logoImg.src = logo
 heroSection.style.backgroundImage = `url(${hero})`
@@ -63,6 +65,7 @@ storeImg.src = store
 phoneImg.src = phone
 fbImg.src = fb
 mailImg.src = email
+
 
 
 

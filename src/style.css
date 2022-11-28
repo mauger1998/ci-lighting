@@ -725,14 +725,49 @@ input {
 
 
 .store {
-    height:110vh;
     width:100vw;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size:1.75rem;
-    gap:4rem;
+    gap:8rem;
+    padding:5rem;
+    padding-top:10rem;
+}
+.address-delivery h3 {
+    font-size:1.5rem;
+    text-align:center;
+    
+}
+.address-delivery p {
+    font-size:1.25rem;
+    text-align:center;
+    line-height:2;
+    
+    
+}
+.address-delivery {
+    display:flex;
+    gap:5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.left-address,
+.right-delivery {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.right-delivery {
+    padding-top:0.8rem;
+}
+
+.left-address p:last-child,
+.right-delivery p:last-child {
+    font-weight:bold;
 }
 
 @media (max-width:1380px) {
