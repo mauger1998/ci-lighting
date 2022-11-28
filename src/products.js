@@ -26,3 +26,53 @@ productOne.src = firstProduct
 productTwo.src = secondProduct
 productThree.src = thirdProduct
 productFour.src = fourthProduct
+
+let PROJECT_ID = "1x7me4qh"
+let DATASET = "production"
+
+let QUERY = encodeURIComponent('*[_type == "product"]')
+
+let PROJECT_URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
+
+fetch(PROJECT_URL)
+    .then((res) => res.json())
+    .then(({ result })=> {
+        let grid = document.querySelector(".product-data-grid")
+        let firstGridItem = document.querySelector(".grid-item")
+
+        if (result.length > 0) {
+            grid.removeChild(firstGridItem)
+
+            result.forEach((product) => {
+                let gridItem = document.createElement("div")
+                let gridTitle = document.createElement("h3")
+                let gridBrand = document.createElement("p")
+                let gridDescription = document.createElement("p")
+                let gridCode = document.createElement("p")
+                let gridButton = document.createElement("button")
+
+                gridTitle.textContent = product.name
+                gridBrand.textContent = product.brand
+                gridDescription.textContent = product.description 
+                gridCode.textContent = product.productCode
+                gridButton.textContent = "See More"
+
+                gridItem.appendChild(gridTitle)
+                gridItem.appendChild(gridBrand)
+                gridItem.appendChild(gridDescription)
+                gridItem.appendChild(gridCode)
+                grid.appendChild(gridItem)
+                gridItem.appendChild(gridButton)
+
+                gridItem.classList.add("gridItem")
+
+                // grid.style.gridTemplateColumns = `repeat(${Math.round(result.length / 7)}, 1fr)`
+                
+                
+            })
+            
+            
+        }
+    })
+    .catch((err) => console.error(err))
+   
